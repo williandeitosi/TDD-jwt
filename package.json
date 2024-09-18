@@ -4,7 +4,8 @@
   "description": "treino de TDD e jwt com middleware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsnd --respawn src/server.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +20,10 @@
     "@types/jest": "^29.5.13",
     "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.5.5",
+    "@types/supertest": "^6.0.2",
     "jest": "^29.7.0",
     "prisma": "^5.19.1",
+    "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.2"
